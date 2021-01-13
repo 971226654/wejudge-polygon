@@ -13,3 +13,10 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+.idea
+backend/pkg/deer-common
+# src/polygon/cmd
+backend/src/polygon/cmd/*
+!backend/src/polygon/cmd/*.go
+
+env/storages
